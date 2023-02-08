@@ -3,7 +3,7 @@ You need [Node.js](https://nodejs.org) installed on your machine. Simply downloa
 
 Once Node.js is installed, open your command prompt or terminal and **navigate into this project folder**. There, run `npm install` to install all required dependencies.
 
-We have a small server and DB setup using json-server. Run `npm run db` to start the json server
+We have a small server and DB setup using json-server. Run `npm run db` to start the json server. In this application, the server is set to run on port `3000`
 
 Finally, run `npm run start` to start the development server and visit [localhost:8080](http://localhost:8080) to see the running application.
 
