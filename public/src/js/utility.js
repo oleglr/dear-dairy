@@ -50,8 +50,6 @@ function deleteItemFromData(st, id) {
 }
 
 function getGeoLocation(latitude, longitude) {
-  //https://api.geoapify.com/v1/geocode/reverse?lat=40.758896&lon=-73.985130&format=json&apiKey=YOUR_API_KEY
-
   const URL = `https://api.geoapify.com/v1/geocode/reverse?lat=${latitude}&lon=${longitude}&format=json&apiKey=${GEOAPIFY_KEY}`;
   console.log("URL gen: ", URL);
   return fetch(URL)
